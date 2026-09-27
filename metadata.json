@@ -1,0 +1,6 @@
+{
+  "name": "Maai-Mahiu Girls High School Official Portal",
+  "description": "Official website of Maai-Mahiu Girls High School, an Extra-County secondary school in Nakuru County, Kenya. Dedicated to nurturing excellence and inspiring young women through holistic academic and leadership education.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
