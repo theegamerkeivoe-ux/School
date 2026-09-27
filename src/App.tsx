@@ -449,8 +449,8 @@ export default function App() {
           />
 
           <main className="flex-1">
-            {/* 3. Hero Section (3-slide cinematic slider) */}
-            <Hero slides={heroSlides} />
+            {/* 3. Hero Section (Rock-solid institutional showcase with quick portal links) */}
+            <Hero slides={heroSlides} onOpenPortal={handleOpenGateway} />
 
             {/* 4. Welcome Section */}
             <WelcomeSection schoolInfo={schoolInfo} />

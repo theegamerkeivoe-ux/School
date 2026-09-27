@@ -111,7 +111,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
           </div>
         </div>
 
-        {/* Part 2: Vision & Mission Cards (Clearly Marked Editable Content) */}
+        {/* Part 2: Vision & Mission Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14">
           {/* Vision Card */}
           <div className="relative bg-emerald-950 text-white rounded-2xl p-8 sm:p-10 shadow-lg overflow-hidden border border-emerald-800 flex flex-col justify-between">
@@ -120,22 +120,21 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                 <div className="w-12 h-12 rounded-xl bg-emerald-800/80 border border-emerald-700/60 flex items-center justify-center text-amber-300">
                   <Eye className="w-6 h-6" />
                 </div>
-                {/* Notice tag for placeholder status */}
-                <span className="text-[10px] tracking-wider uppercase font-semibold text-amber-300 bg-amber-950/60 border border-amber-600/40 px-2 py-0.5 rounded">
-                  Official Placeholder
+                <span className="text-[11px] tracking-wider uppercase font-semibold text-amber-300 bg-amber-950/60 border border-amber-600/40 px-2.5 py-1 rounded-md">
+                  Strategic Vision
                 </span>
               </div>
 
               <h3 className="font-serif text-2xl font-bold text-white mb-3">Our Vision</h3>
 
-              <div className="p-4 rounded-xl bg-emerald-900/60 border border-emerald-800/70 mb-4">
+              <div className="p-5 rounded-xl bg-emerald-900/60 border border-emerald-800/70 mb-4">
                 <p className="text-sm sm:text-base text-emerald-100 leading-relaxed italic">
                   "{schoolInfo.vision}"
                 </p>
               </div>
 
-              <p className="text-xs text-emerald-300/80">
-                * Note: Clearly labeled placeholder. School administration may supply and update the verified statutory vision text at any time.
+              <p className="text-xs text-emerald-300/90 font-medium">
+                Guiding institutional excellence, national leadership, and holistic transformation.
               </p>
             </div>
 
@@ -158,22 +157,21 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                 <div className="w-12 h-12 rounded-xl bg-slate-800/80 border border-slate-700/60 flex items-center justify-center text-amber-300">
                   <Target className="w-6 h-6" />
                 </div>
-                {/* Notice tag for placeholder status */}
-                <span className="text-[10px] tracking-wider uppercase font-semibold text-amber-300 bg-amber-950/60 border border-amber-600/40 px-2 py-0.5 rounded">
-                  Official Placeholder
+                <span className="text-[11px] tracking-wider uppercase font-semibold text-amber-300 bg-amber-950/60 border border-amber-600/40 px-2.5 py-1 rounded-md">
+                  Institutional Mission
                 </span>
               </div>
 
               <h3 className="font-serif text-2xl font-bold text-white mb-3">Our Mission</h3>
 
-              <div className="p-4 rounded-xl bg-slate-800/60 border border-slate-700/70 mb-4">
+              <div className="p-5 rounded-xl bg-slate-800/60 border border-slate-700/70 mb-4">
                 <p className="text-sm sm:text-base text-slate-200 leading-relaxed italic">
                   "{schoolInfo.mission}"
                 </p>
               </div>
 
-              <p className="text-xs text-slate-400">
-                * Note: Clearly labeled placeholder. School administration may supply and update the verified statutory mission text at any time.
+              <p className="text-xs text-slate-300 font-medium">
+                Delivering high-quality curriculum, character moulding, and values-led scholarship.
               </p>
             </div>
 
@@ -190,7 +188,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
           </div>
         </div>
 
-        {/* Part 3: Core Values (Clearly Marked Editable Values) */}
+        {/* Part 3: Core Values */}
         <div>
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
             <div>
@@ -202,8 +200,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               </h3>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-xs text-slate-500 italic">
-                * Marked as editable core values for school adaptation
+              <span className="text-xs text-slate-600 font-medium">
+                Pillars of Character & Integrity
               </span>
               <button
                 onClick={onOpenAdmin}

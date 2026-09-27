@@ -25,7 +25,7 @@ export const Crest: React.FC<CrestProps> = ({
       {/* Refined School Heraldic Shield */}
       <svg
         viewBox="0 0 120 135"
-        className={`${sizeMap[size]} shrink-0 transition-transform duration-300 hover:scale-105`}
+        className={`${sizeMap[size]} shrink-0`}
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-label="Maai-Mahiu Girls High School Crest"

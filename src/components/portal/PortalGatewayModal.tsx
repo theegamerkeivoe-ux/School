@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   GraduationCap,
   Users,
@@ -34,6 +34,12 @@ export const PortalGatewayModal: React.FC<PortalGatewayModalProps> = ({
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+
+  useEffect(() => {
+    if (initialRole) {
+      setSelectedRole(initialRole);
+    }
+  }, [initialRole]);
 
   if (!isOpen) return null;
 

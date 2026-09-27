@@ -110,25 +110,25 @@ export const PortalLayout: React.FC<PortalLayoutProps> = ({
 
               <div
                 onClick={onReturnToWebsite}
-                className="flex items-center gap-3 cursor-pointer group"
+                className="flex items-center gap-3 cursor-pointer group shrink-0 select-none"
                 title="Return to Public Website"
               >
-                <Crest size="sm" variant="dark" />
-                <div className="hidden sm:flex flex-col">
-                  <span className="font-serif font-bold text-sm tracking-tight text-white group-hover:text-amber-300 transition-colors">
+                <Crest size="sm" variant="dark" className="shrink-0" />
+                <div className="hidden sm:flex flex-col shrink-0 min-w-max">
+                  <span className="font-serif font-bold text-sm tracking-tight text-white group-hover:text-amber-300 transition-colors whitespace-nowrap">
                     Maai-Mahiu Girls
                   </span>
-                  <span className="text-[10px] uppercase font-semibold text-emerald-300">
+                  <span className="text-[10px] uppercase font-semibold text-emerald-300 whitespace-nowrap">
                     High School
                   </span>
                 </div>
               </div>
 
-              <div className="h-5 w-px bg-white/20 hidden sm:block"></div>
+              <div className="h-5 w-px bg-white/20 hidden sm:block shrink-0"></div>
 
               {/* Portal Role Indicator */}
               <div
-                className={`px-2.5 py-1 rounded-md text-xs font-bold tracking-wide uppercase border ${theme.badgeBg}`}
+                className={`px-2.5 py-1 rounded-md text-xs font-bold tracking-wide uppercase border shrink-0 whitespace-nowrap ${theme.badgeBg}`}
               >
                 {theme.title}
               </div>

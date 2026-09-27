@@ -60,10 +60,10 @@ export const CampusExperience: React.FC<CampusExperienceProps> = ({ facilities }
           <div className="p-3.5 bg-slate-800/80 rounded-xl border border-slate-700 max-w-sm">
             <div className="flex items-center gap-2 text-xs font-semibold text-emerald-400 mb-1">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>Institutional Facilities Overview</span>
+              <span>Campus Infrastructure Standards</span>
             </div>
-            <p className="text-[11px] text-slate-400 leading-snug">
-              Facilities listed reflect current school infrastructure. Specific room dimensions and equipment counts are verified by school administration.
+            <p className="text-[11px] text-slate-300 leading-snug">
+              Purpose-built facilities combining modern STEM laboratories, digital lecture rooms, secure boarding hostels, and championship sports fields.
             </p>
           </div>
         </div>

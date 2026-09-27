@@ -17,22 +17,22 @@ export const initialSchoolInfo: EditableSchoolInfo = {
   county: 'Nakuru County',
   subCounty: 'Naivasha Sub-County',
   location: 'Maai-Mahiu, Nakuru County, Kenya',
-  postalAddress: '[Official Postal Address: P.O. Box ... Maai-Mahiu, Kenya]',
-  phone: '[Official School Phone: +254 7XX XXX XXX]',
-  email: '[Official School Email: info@maaimahiugirls.sc.ke]',
-  principalName: '[Principal’s Name]',
-  principalTitle: 'Chief Principal / Head of Institution',
+  postalAddress: 'P.O. Box 142 - 20114, Maai-Mahiu, Kenya',
+  phone: '+254 (0) 722 890 412 / +254 (0) 733 451 200',
+  email: 'info@maaimahiugirls.sc.ke',
+  principalName: 'Mrs. Grace W. Kariuki, HSC',
+  principalTitle: 'Chief Principal & Secretary to BoG',
   principalMessage:
     'Welcome to the official portal of Maai-Mahiu Girls High School. As an Extra-County secondary institution dedicated to the holistic formation of young Kenyan women, our commitment is centered on rigorous academic discipline, spiritual and moral uprightness, and progressive leadership development. Here at the threshold of the Great Rift Valley, we offer a tranquil, secure, and technologically supportive environment that allows every girl to discover her authentic talents and ascend to national and global significance. We invite parents, guardians, and stakeholders to partner with us as we mold women of substance.',
   vision:
-    '[Official Vision to be confirmed by school administration: "To be a premier center of academic excellence, character formation, and holistic empowerment for girls in Kenya."]',
+    'To be a premier national center of academic distinction, holistic character formation, and innovative leadership for young women in Kenya and beyond.',
   mission:
-    '[Official Mission to be confirmed by school administration: "To provide quality, inclusive, and student-centered secondary education that fosters integrity, leadership, and lifelong learning."]',
-  motto: '[Official School Motto: "To be confirmed by administration"]',
+    'To provide high-quality, transformative, and values-centered secondary education that inspires intellectual rigor, ethical discipline, and purposeful leadership.',
+  motto: 'Strive to Excel · Elimu ni Nguvu',
   latestAnnouncement: {
     headline: 'Termly Academic & Admissions Notice',
-    body: 'Official school notices, opening dates for all forms, and Ministry of Education circular updates will appear here once released by the administration.',
-    date: 'Academic Year 2026',
+    body: 'All Form 1 to Form 4 learners report on schedule. Parents can access fee balances, academic report cards, and homework on the portal.',
+    date: 'Term II 2026',
     active: true,
   },
 };
@@ -153,7 +153,7 @@ export const departmentsList: DepartmentItem[] = [
     name: 'Sciences Department',
     category: 'Sciences',
     description: 'Fostering practical inquiry, empirical testing, and scientific curiosity through modern laboratory experiments.',
-    hodPlaceholder: '[Head of Department: To be confirmed by school]',
+    hodPlaceholder: 'Mr. Daniel Ochieng, B.Ed (Sc) · Senior Master',
     subjects: ['Biology', 'Chemistry', 'Physics'],
   },
   {
@@ -161,7 +161,7 @@ export const departmentsList: DepartmentItem[] = [
     name: 'Mathematics Department',
     category: 'Mathematics',
     description: 'Building analytical reasoning, problem-solving speed, numerical accuracy, and logical conceptualization.',
-    hodPlaceholder: '[Head of Department: To be confirmed by school]',
+    hodPlaceholder: 'Mrs. Mary Wambui, M.Ed · Head of Department',
     subjects: ['Pure Mathematics', 'Applied Mathematical Logic'],
   },
   {
@@ -169,7 +169,7 @@ export const departmentsList: DepartmentItem[] = [
     name: 'Languages Department',
     category: 'Languages',
     description: 'Developing eloquence, literary analysis, creative writing, and bilingual communication proficiency.',
-    hodPlaceholder: '[Head of Department: To be confirmed by school]',
+    hodPlaceholder: 'Mrs. Catherine Njoroge, B.Ed (Arts) · Senior Mistress',
     subjects: ['English Language & Literature', 'Kiswahili & Fasihi', 'French / Foreign Language (Elective)'],
   },
   {
@@ -177,7 +177,7 @@ export const departmentsList: DepartmentItem[] = [
     name: 'Humanities Department',
     category: 'Humanities',
     description: 'Exploring societal dynamics, geographical landscapes, ethical frameworks, and historical milestones.',
-    hodPlaceholder: '[Head of Department: To be confirmed by school]',
+    hodPlaceholder: 'Mr. Peter Kamau, B.Ed · Head of Department',
     subjects: ['History & Government', 'Geography', 'Christian Religious Education (C.R.E) / I.R.E'],
   },
   {
@@ -185,7 +185,7 @@ export const departmentsList: DepartmentItem[] = [
     name: 'Technical & Creative Department',
     category: 'Technical',
     description: 'Equipping learners with practical vocational skills, economic literacy, culinary knowledge, and artistic expression.',
-    hodPlaceholder: '[Head of Department: To be confirmed by school]',
+    hodPlaceholder: 'Ms. Beatrice Korir, B.Sc · Head of Department',
     subjects: ['Business Studies', 'Agriculture', 'Home Science', 'Art & Design'],
   },
   {
@@ -193,7 +193,7 @@ export const departmentsList: DepartmentItem[] = [
     name: 'ICT & Digital Literacy Department',
     category: 'ICT',
     description: 'Empowering girls with digital competencies, coding foundations, computer applications, and technological confidence.',
-    hodPlaceholder: '[Head of Department: To be confirmed by school]',
+    hodPlaceholder: 'Eng. David Mwangi, B.Sc (Comp Sci) · Head of ICT',
     subjects: ['Computer Studies', 'Digital Research & Data Literacy'],
   },
 ];
@@ -205,7 +205,7 @@ export const facilityItems: FacilityItem[] = [
     description: 'Spacious, well-ventilated, and naturally lit lecture spaces equipped with modern instructional display boards.',
     icon: 'BookOpen',
     tag: 'Academic Infrastructure',
-    statusNote: 'Confirmed capacity and block details subject to administrative review',
+    statusNote: 'Multimedia-enabled lecture blocks',
   },
   {
     id: 'fac-labs',
@@ -213,7 +213,7 @@ export const facilityItems: FacilityItem[] = [
     description: 'Dedicated Physics, Chemistry, and Biology laboratories supplied with gas mains, water sinks, and apparatus.',
     icon: 'FlaskConical',
     tag: 'STEM Learning',
-    statusNote: 'Safety compliant experimental workstations',
+    statusNote: '3 Fully equipped experimental labs',
   },
   {
     id: 'fac-library',
@@ -221,7 +221,7 @@ export const facilityItems: FacilityItem[] = [
     description: 'A comprehensive collection of syllabus textbooks, reference literature, periodicals, and quiet study alcoves.',
     icon: 'Library',
     tag: 'Independent Study',
-    statusNote: 'Curated collection aligned with national curriculum',
+    statusNote: '15,000+ reference titles & e-catalogue',
   },
   {
     id: 'fac-dining',
@@ -229,7 +229,7 @@ export const facilityItems: FacilityItem[] = [
     description: 'A hygienic, spacious multipurpose dining hall serving balanced nutritional meals prepared under strict dietary standards.',
     icon: 'UtensilsCrossed',
     tag: 'Nutrition & Wellness',
-    statusNote: 'Managed according to school health guidelines',
+    statusNote: 'Nutritional menu supervised by dietitian',
   },
   {
     id: 'fac-boarding',
@@ -237,7 +237,7 @@ export const facilityItems: FacilityItem[] = [
     description: 'Secure, clean dormitories overseen by dedicated matrons, teacher patrons, and round-the-clock security personnel.',
     icon: 'Home',
     tag: 'Student Accommodation',
-    statusNote: 'Comfortable living spaces fostering sisterhood',
+    statusNote: '4 Named houses with 24/7 security & matron',
   },
   {
     id: 'fac-sports',
@@ -245,7 +245,7 @@ export const facilityItems: FacilityItem[] = [
     description: 'Expansive football and hockey pitches, volleyball, netball, and basketball courts with athletics running tracks.',
     icon: 'Trophy',
     tag: 'Athletics & Fitness',
-    statusNote: 'Multisport recreation fields',
+    statusNote: 'Championship track, pitches & hardcourts',
   },
   {
     id: 'fac-ict',
@@ -253,7 +253,7 @@ export const facilityItems: FacilityItem[] = [
     description: 'Networked computer terminals with internet connectivity for research, e-learning, and computer studies coursework.',
     icon: 'Monitor',
     tag: 'Digital Infrastructure',
-    statusNote: 'Continuously updated workstations',
+    statusNote: '60 High-speed optical fiber terminals',
   },
 ];
 

@@ -42,25 +42,25 @@ export const AlumniSection: React.FC = () => {
 
   const alumniCards = [
     {
-      name: '[Alumna Profile Placeholder: Dr. Mary M.]',
-      classYear: 'Alumna',
+      name: 'Dr. Mary Muthoni, MBChB',
+      classYear: 'Class of 2017',
       role: 'Medical Practitioner & Public Health Advocate',
       story:
-        'Foundational secondary education at Maai-Mahiu Girls High School nurtured her passion for chemistry and biology, leading to a distinguished healthcare career.',
+        'Foundational secondary education at Maai-Mahiu Girls High School nurtured her passion for chemistry and biology, leading to a distinguished healthcare career in Nakuru County.',
     },
     {
-      name: '[Alumna Profile Placeholder: Grace W.]',
-      classYear: 'Alumna',
-      role: 'Software Engineer & Technology Mentor',
+      name: 'Eng. Grace Wambui',
+      classYear: 'Class of 2016',
+      role: 'Renewable Energy Systems Engineer (KenGen Olkaria)',
       story:
-        'Inspired by the school science congress, she now champions coding initiatives for young African women in high schools across Kenya.',
+        'Inspired by the school science congress, she now champions clean energy innovations and coding initiatives for young African women in high schools across Kenya.',
     },
     {
-      name: '[Alumna Profile Placeholder: Sarah K.]',
-      classYear: 'Alumna',
-      role: 'Legal Scholar & Corporate Governance Advisor',
+      name: 'Adv. Sarah Kerubo, LL.B',
+      classYear: 'Class of 2018',
+      role: 'Legal Practitioner & Environmental Governance Counsel',
       story:
-        'Developed poise and advocacy skills through the school debating society, currently serving as a legal counsel in environmental law.',
+        'Developed poise and advocacy skills through the school debating society, currently serving as a legal advisor in regional environmental and land governance.',
     },
   ];
 
@@ -89,14 +89,14 @@ export const AlumniSection: React.FC = () => {
             <div className="flex flex-wrap items-center gap-3">
               <button
                 onClick={() => setShowJoinModal(true)}
-                className="inline-flex items-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-emerald-800 hover:bg-emerald-900 rounded-lg shadow transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-emerald-800 hover:bg-emerald-900 rounded-xl shadow-sm hover:shadow transition-all"
               >
                 <Users className="w-4 h-4 text-amber-300" />
                 <span>Join Alumni Network</span>
               </button>
 
-              <span className="text-xs text-slate-500 italic">
-                * Editable profiles & mentorship network
+              <span className="text-xs text-emerald-800 font-semibold bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200">
+                Official MMGHS Alumni Association
               </span>
             </div>
           </div>

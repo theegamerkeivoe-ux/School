@@ -11,36 +11,36 @@ interface TopBarProps {
 export const TopBar: React.FC<TopBarProps> = ({ schoolInfo, onOpenPortal, onOpenAdmin }) => {
   return (
     <div className="bg-emerald-950 text-emerald-100 text-xs py-2 px-4 sm:px-6 lg:px-8 border-b border-emerald-900/60 select-none">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2.5">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-2.5">
         {/* Left Information Strip */}
-        <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-1 text-[11px] sm:text-xs">
-          <span className="font-semibold text-white tracking-wide flex items-center gap-1.5">
+        <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-3 sm:gap-x-4 gap-y-1 text-[11px] sm:text-xs min-w-0">
+          <span className="font-semibold text-white tracking-wide flex items-center gap-1.5 shrink-0 whitespace-nowrap">
             <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
             Maai-Mahiu Girls High School
           </span>
 
           <span className="hidden sm:inline text-emerald-700">|</span>
 
-          <span className="flex items-center gap-1 text-emerald-200/90">
+          <span className="flex items-center gap-1 text-emerald-200/90 shrink-0 whitespace-nowrap">
             <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />
             <span>Maai-Mahiu, Nakuru County, Kenya</span>
           </span>
 
-          <span className="hidden lg:inline text-emerald-700">|</span>
+          <span className="hidden xl:inline text-emerald-700">|</span>
 
           <a
             href={`tel:${schoolInfo.phone}`}
-            className="hidden lg:flex items-center gap-1 text-emerald-200/80 hover:text-white transition-colors"
+            className="hidden xl:flex items-center gap-1 text-emerald-200/80 hover:text-white transition-colors shrink-0 whitespace-nowrap"
           >
             <Phone className="w-3.5 h-3.5 text-amber-400 shrink-0" />
             <span className="truncate max-w-[160px]">{schoolInfo.phone}</span>
           </a>
 
-          <span className="hidden xl:inline text-emerald-700">|</span>
+          <span className="hidden 2xl:inline text-emerald-700">|</span>
 
           <a
             href={`mailto:${schoolInfo.email}`}
-            className="hidden xl:flex items-center gap-1 text-emerald-200/80 hover:text-white transition-colors"
+            className="hidden 2xl:flex items-center gap-1 text-emerald-200/80 hover:text-white transition-colors shrink-0 whitespace-nowrap"
           >
             <Mail className="w-3.5 h-3.5 text-amber-400 shrink-0" />
             <span className="truncate max-w-[200px]">{schoolInfo.email}</span>
